@@ -63,16 +63,16 @@ exports.wsdeflate = {
  */
 exports.ssl = null;
 
-/*
+
 // example:
 exports.ssl = {
 	port: 443,
 	options: {
-		key: './config/ssl/privkey.pem',
-		cert: './config/ssl/fullchain.pem',
+		key: './config/ssl/key.pem',
+		cert: './config/ssl/cert.pem',
 	},
 };
-*/
+
 
 /*
 Main's SSL deploy script from Let's Encrypt looks like:
