@@ -27,7 +27,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
   {
 		name: "[Gen 4] Ubers",
 		mod: 'gen4',
-		searchShow: false,
 		ruleset: ['Standard'],
 		banlist: ['AG'],
 	},
@@ -45,7 +44,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 	{
 		name: "[Gen 1] Tradebacks OU",
-		desc: `RBY OU with movepool additions from the Time Capsule.`,
 		mod: 'gen1',
 		ruleset: ['[Gen 1] OU', 'Allow Tradeback'],
 	},
