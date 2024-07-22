@@ -64,16 +64,15 @@ exports.wsdeflate = {
 exports.ssl = null;
 
 
-// example:
-/*
+// Provide your own key and cert!!! This server does not currently implement ssl
 exports.ssl = {
 	port: 443,
 	options: {
-		key: './config/ssl/key.pem',
-		cert: './config/ssl/cert.pem',
+		key: '/home/user/ps/config/key.pem',
+		cert: '/home/user/ps/config/cert.pem',
 	},
 };
-*/
+
 
 /*
 Main's SSL deploy script from Let's Encrypt looks like:
