@@ -806,7 +806,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	mismagius: {
 		Tier: "OU",
 	},
-	porygon z: {
+	porygonz: {
 		Tier: "OU",
 	},
 	togekiss: {
