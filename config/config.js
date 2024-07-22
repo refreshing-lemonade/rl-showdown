@@ -65,6 +65,7 @@ exports.ssl = null;
 
 
 // example:
+/*
 exports.ssl = {
 	port: 443,
 	options: {
@@ -72,7 +73,7 @@ exports.ssl = {
 		cert: './config/ssl/cert.pem',
 	},
 };
-
+*/
 
 /*
 Main's SSL deploy script from Let's Encrypt looks like:
@@ -433,7 +434,7 @@ exports.autolockdown = true;
  * Logging in this way will make you considered an unregistered user and grant
  * no authority. You cannot log into a trusted (g+/r%) user account this way.
  */
-exports.noguestsecurity = false;
+exports.noguestsecurity = true;
 
 /**
  * tourroom - specify a room to receive tournament announcements (defaults to
