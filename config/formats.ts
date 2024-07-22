@@ -25,6 +25,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
     section: "Main Formats",
   },
   {
+		name: "[Gen 2] OU Future Evolutions",
+		mod: 'gen2',
+		ruleset: ['Standard'],
+		banlist: ['Uber', 'Mean Look + Baton Pass', 'Spider Web + Baton Pass'],
+  },
+  {
 		name: "[Gen 4] Ubers",
 		mod: 'gen4',
 		ruleset: ['Standard'],
@@ -71,12 +77,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 
 	{
 		section: "Unfinished",
-	},
-	{
-		name: "[Gen 2] OU Future Evolutions",
-		mod: 'gen2',
-		ruleset: ['Standard'],
-		banlist: ['Uber', 'Mean Look + Baton Pass', 'Spider Web + Baton Pass'],
 	},
 	{
 		name: "[Gen 2] OU Super Tradebacks",
